@@ -13,7 +13,7 @@ body {
     font-size: 1em;
 }
 
-/* NAVIGATION - SAME FOR ALL PAGES */
+/* NAVIGATION ACROSS ALL PAGES */
 nav {
     background: #e8b4a9;
     padding: 1em 0;
@@ -206,7 +206,7 @@ nav a {
     border-radius: 0.5em;
 }
 
-/* making sure its responive on a phone */
+/* making sure it's responive on a phone */
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
@@ -235,6 +235,7 @@ nav a {
         padding: 1em;
     }
 }
+
 /* Logo Styles */
 .logo {
     position: absolute;
