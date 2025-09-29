@@ -37,7 +37,7 @@ This website was created to showcase Skin & Soul’s services and provide client
 
 ## 📸Preview
 
-![Skin&SoulHome](Skin&SoulHomePage.jpg)
+![Skin SoulHomePage](https://github.com/user-attachments/assets/d67656ed-7fbb-4d4b-8610-659e928e3098)
 
 
 ## 🔎FAQ
