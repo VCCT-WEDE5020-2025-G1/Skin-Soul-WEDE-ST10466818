@@ -29,6 +29,9 @@ This website was created to showcase Skin & Soul’s services and provide client
 
 5. Contact – Contact details and Picture of Location
 
+## Installation
+https://github.com/VCCT-WEDE5020-2025-G1/Skin-Soul-WEDE-ST10466818.git
+
 ## 🛠️Tech Stack
 * HTML 5
 * CSS 3 (Responsive, Mobile-friendly )
