@@ -44,10 +44,10 @@ This website was created to showcase Skin & Soul’s services and provide client
 
 ## 📸Preview
 
-![Skin&SoulHomePage.jpg](Skin&SoulHomePage.jpg)
+![Skin & Soul Home Page](assets/images/Skin&SoulHomePage.jpg)
 
 
-## FAQ
+## 🔎FAQ
 
 #### Frequently Asked Questions (FAQ)
 
