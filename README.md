@@ -23,6 +23,8 @@ This website was created to showcase Skin & Soul’s services and provide client
 
 - Access contact details & location map
 
+- took inspo from https://thaimassage.co.za/?msclkid=efbaa842ec161a1c7128c09829bf7f0c and https://boabeautybar.co.za/ since there is not website prior to this one
+
   ### The website is structured into five main pages:
 
 1. Home – About the Owner
@@ -35,9 +37,15 @@ This website was created to showcase Skin & Soul’s services and provide client
 
 5. Contact – Contact details and Picture of Location
 
-## Tech Stack
+## 🛠️Tech Stack
+* HTML 5
+* CSS 3 (Responsive, Mobile-friendly )
+* JavaScript-soon
 
-**Language used so far:** HTML 5
+## 📸Preview
+
+![Skin&SoulHomePage.jpg](Skin&SoulHomePage.jpg)
+
 
 ## FAQ
 
