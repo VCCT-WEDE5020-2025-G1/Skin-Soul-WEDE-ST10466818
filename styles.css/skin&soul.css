@@ -206,7 +206,7 @@ nav a {
     border-radius: 0.5em;
 }
 
-/*Helps with being responsive on a phone */
+/* making sure its responive on a phone */
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
