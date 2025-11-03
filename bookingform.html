@@ -1,0 +1,48 @@
+<!-- Booking Form -->
+                <div class="contact-form-wrapper">
+                    <div class="contact-form-card">
+                        <form id="bookingForm" class="contact-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name">Full Name *</label>
+                                    <input type="text" id="name" name="name" required placeholder="Your name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email *</label>
+                                    <input type="email" id="email" name="email" required placeholder="your@email.com">
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="phone">Phone Number *</label>
+                                    <input type="tel" id="phone" name="phone" required placeholder="073 123 4567">
+                                </div>
+                                <div class="form-group">
+                                    <label for="service">Service *</label>
+                                    <select id="service" name="service" required>
+                                        <option value="">Select a service</option>
+                                        <option value="nails">Nails (Manicure/Pedicure)</option>
+                                        <option value="massage">Massage</option>
+                                        <option value="facial">Facial</option>
+                                        <option value="wax">Waxing</option>
+                                        <option value="tint">Tinting</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="date">Preferred Date *</label>
+                                <input type="date" id="date" name="date" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Additional Information</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Any special requests or preferences?"></textarea>
+                            </div>
+
+                            <div class="form-submit">
+                                <button type="submit" class="btn-submit">Submit Booking Request</button>
+                                <p class="form-note">I'll confirm your appointment within 24 hours</p>
+                            </div>
+                        </form>
