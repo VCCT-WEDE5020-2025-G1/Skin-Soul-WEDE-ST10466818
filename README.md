@@ -83,6 +83,17 @@ You can book by filling in the online booking form on the website, or by contact
 **6. Do you accept walk-ins?**
 No, appointments are required so that I can give each client the full attention they deserve and paid for.
 
+## Change Log:
+| Category |  Description of Change | Files Affected |
+|:--------:|:----------------------:|:--------------:|
+| Design Overhaul | Switched to a clean, modern aesthetic. The layout is now fully responsive, ensuring it looks professional and performs well on mobile phones, tablets, and desktops. | style.css (Major Update), All *.html files|
+| Navigation   |  Implemented a fixed  navigation bar making it easy to jump between pages. Added a dedicated mobile menu button for smaller screens. |  All *.html files, style.css, script.js |
+| Branding & Color   | Introduced a soft, clean color palette (pink,teal,white and black) to reflect a calming, professional atmosphere.| style.css |
+|Images & Logo       | Included a placeholder for your logo (skin&soulwaitingroom.jpg and skin&soulserviceroom.jpg) and made it a focal point in the header. | All *.html files |
+| Home Page (index.html) | Added a large, welcoming Hero Section with a strong call to action: "Book Your Tranquility Now." The services section now includes clear icons for visual appeal.| index.html |
+|Contact Page (contactpage.html) | Replaced simple text with a fully functional embedded Google Map to show the salon's exact location. Included a professional contact form for inquiries. |contactpage.html|
+| Responsiveness | Ensured text sizes, images, and layout blocks adjust dynamically across all screen sizes for optimal viewing without horizontal scrolling. | style.css |
+
 
 
 
