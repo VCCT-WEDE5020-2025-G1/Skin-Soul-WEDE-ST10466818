@@ -1,89 +1,92 @@
-<!-- Contact Section -->
-    <section id="contact" class="contact">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Skin & Soul - Professional beauty therapy and wellness treatments in Atlantis. Nails, massage, facials, waxing and tinting services.">
+    <meta name="keywords" content="beauty therapy, massage, nails, facials, waxing, Atlantis, Avondale, wellness">
+    <title>Skin & Soul by Jonese</title>
+    <link rel="stylesheet" href="styles/skin&soul.css">
+    <link rel ="functions" href="scripts/main.js">
+    <link rel="icon" type="image/jpeg" href="new logo.jpg">
+    <script src = 'main.js' ></script>
+</head>
+    <!-- Contact & Enquire Section -->
+    <section id="contact" class="contact-section">
         <div class="container">
-            <!-- Section Title -->
             <div class="section-header">
-                <h2 class="section-title">Book Your Appointment</h2>
+                <h2 class="section-title">Bookings & Enquiries</h2>
                 <div class="section-divider"></div>
-                <p class="section-description">
-                    Ready to experience professional beauty therapy? Get in touch today.
-                </p>
             </div>
+            
             <div class="contact-grid">
-                <!-- Contact Info Cards -->
+                <!-- Contact Form -->
+                <form id="contactForm" class="contact-form">
+                    <h3 class="about-heading" style="margin-bottom: 0;">Send Us a Message</h3>
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Jane Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="jane.doe@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Interested Service</label>
+                        <select id="service" name="service" required>
+                            <option value="" disabled selected>Select a Service</option>
+                            <option value="nails">Nails & Pedicures</option>
+                            <option value="massage">Massage Therapy</option>
+                            <option value="facial">Facial Treatments</option>
+                            <option value="waxing">Waxing & Tinting</option>
+                            <option value="other">General Enquiry</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" required placeholder="I would like to book a Full Body Relaxation massage next Tuesday."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit Enquiry</button>
+                </form>
+
+                <!-- Contact Info -->
                 <div class="contact-info">
-                    <!-- Address -->
+                    <h3 class="about-heading" style="margin-bottom: 0;">Contact Details</h3>
+                    
                     <div class="info-card">
-                        <div class="info-card-content">
-                            <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
-                                <circle cx="12" cy="10" r="3"/>
-                            </svg>
-                            <div class="info-text">
-                                <h3>Address</h3>
-                                <p>12 Ceres Street<br>Avondale<br>Atlantis, 7349</p>
-                            </div>
+                        <span class="info-icon" data-lucide="phone"></span>
+                        <div class="info-content">
+                            <h3>Phone / WhatsApp</h3>
+                            <p>Call or message Jonese for quick responses.</p>
+                            <a href="tel:0733871861">073 387 1861</a>
                         </div>
                     </div>
 
-                    <!-- Phone -->
                     <div class="info-card">
-                        <div class="info-card-content">
-                            <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
-                            </svg>
-                            <div class="info-text">
-                                <h3>Phone</h3>
-                                <p>073 387 1861</p>
-                                <p class="info-subtext">Call or WhatsApp</p>
-                            </div>
+                        <span class="info-icon" data-lucide="mail"></span>
+                        <div class="info-content">
+                            <h3>Email Address</h3>
+                            <p>For detailed enquiries or booking changes.</p>
+                            <a href="mailto:jonese.abels@gmail.com">jonese.abels@gmail.com</a>
                         </div>
                     </div>
-
-                    <!-- Email -->
-                    <div class="info-card">
-                        <div class="info-card-content">
-                            <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                                <polyline points="22,6 12,13 2,6"/>
-                            </svg>
-                            <div class="info-text">
-                                <h3>Email</h3>
-                                <p>jonese.abels@gmail.com</p>
+                    <div class="info-card map-card">
+                        <span class="info-icon" data-lucide="map-pin"></span>
+                        <div class="info-content">
+                            <h3>Location</h3>
+                            <p>Home-based salon in Avondale, Atlantis.</p>
+                            <p class="footer-contact">12 Ceres Street, Avondale, Atlantis, 7349</p>
+                        </div>
+                        <a href="https://www.google.com/maps/place/12+Ceres+St,+Avondale,+Cape+Town,+7349/@-33.5729235,18.4801586,17z/data=!4m6!3m5!1s0x1dccec5a04d7cfd7:0x68ee8dea290a03cd!8m2!3d-33.5712787!4d18.4815533!16s%2Fg%2F11kmbc45z8?entry=ttu&g_ep=EgoyMDI1MTAyOS4yIKXMDSoASAFQAw%3D%3D" target="_blank" class="map-link">
+                            <img src="Map Image.png" 
+                                 alt="Map location placeholder" class="map-image">
+                            <div class="map-overlay">
+                                <span data-lucide="external-link"></span>
+                                View Map & Get Directions
                             </div>
-                        </div>
-                    </div>
-
-                    <!-- Map -->
-                    <div class="info-card">
-                        <div class="info-card-content info-card-map">
-                            <h3>Location Map</h3>
-                            <a href="https://www.google.com/maps/search/?api=1&query=12+Ceres+Street+Avondale+Atlantis+7349+South+Africa" 
-                               target="_blank" 
-                               rel="noopener noreferrer" 
-                               class="map-link">
-                                <img src="Map Image.png" 
-                                     alt="Location map" 
-                                     class="map-image">
-                                <div class="map-overlay">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
-                                        <polyline points="15 3 21 3 21 9"/>
-                                        <line x1="10" y1="14" x2="21" y2="3"/>
-                                    </svg>
-                                    <p>Click for Directions</p>
-                                </div>
-                            </a>
-                            <a href="https://www.google.com/maps/search/?api=1&query=12+Ceres+Street+Avondale+Atlantis+7349+South+Africa" 
-                               target="_blank" 
-                               rel="noopener noreferrer" 
-                               class="map-directions">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
-                                    <circle cx="12" cy="10" r="3"/>
-                                </svg>
-                                Get Directions
-                            </a>
-                        </div>
+                        </a>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
