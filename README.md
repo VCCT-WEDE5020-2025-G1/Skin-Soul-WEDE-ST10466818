@@ -15,7 +15,7 @@ This website was created to showcase Skin & Soul’s services and provide client
 
 - Access contact details & location map
 
-- took inspo from https://thaimassage.co.za/?msclkid=efbaa842ec161a1c7128c09829bf7f0c and https://boabeautybar.co.za/ since there is not website prior to this one
+- took inspo from [https://thaimassage.co.za/?msclkid=efbaa842ec161a1c7128c09829bf7f0c](https://www.fresha.com/) and https://boabeautybar.co.za/ since there is not website prior to this one
 
   ### The website is structured into five main pages:
 
