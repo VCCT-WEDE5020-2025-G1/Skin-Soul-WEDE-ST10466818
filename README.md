@@ -15,7 +15,7 @@ This website was created to showcase Skin & Soul’s services and provide client
 
 - Access contact details & location map
 
-- took inspo from https://thaimassage.co.za/?msclkid=efbaa842ec161a1c7128c09829bf7f0c and https://boabeautybar.co.za/ since there is not website prior to this one
+- took inspo from [https://thaimassage.co.za/?msclkid=efbaa842ec161a1c7128c09829bf7f0c](https://www.fresha.com/) and https://boabeautybar.co.za/ since there is not website prior to this one
 
   ### The website is structured into five main pages:
 
@@ -83,11 +83,9 @@ You can book by filling in the online booking form on the website, or by contact
 **6. Do you accept walk-ins?**
 No, appointments are required so that I can give each client the full attention they deserve and paid for.
 
-<<<<<<< HEAD
+
 ## Change Log:
-=======
-##Change Log:
->>>>>>> e787d4265ea552af61484d78881b8a42ea4b5bb7
+
 | Category |  Description of Change | Files Affected |
 |:--------:|:----------------------:|:--------------:|
 | Design Overhaul | Switched to a clean, modern aesthetic. The layout is now fully responsive, ensuring it looks professional and performs well on mobile phones, tablets, and desktops. | style.css (Major Update), All *.html files|
@@ -97,10 +95,7 @@ No, appointments are required so that I can give each client the full attention 
 | Home Page (index.html) | Added a large, welcoming Hero Section with a strong call to action: "Book Your Tranquility Now." The services section now includes clear icons for visual appeal.| index.html |
 |Contact Page (contactpage.html) | Replaced simple text with a fully functional embedded Google Map to show the salon's exact location. Included a professional contact form for inquiries. |contactpage.html|
 | Responsiveness | Ensured text sizes, images, and layout blocks adjust dynamically across all screen sizes for optimal viewing without horizontal scrolling. | style.css |
-<<<<<<< HEAD
 
 
-=======
->>>>>>> e787d4265ea552af61484d78881b8a42ea4b5bb7
 
 
